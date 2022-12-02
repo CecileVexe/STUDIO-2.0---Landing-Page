@@ -159,3 +159,27 @@ button {
     text-align: center;
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
 }
+
+#logo-partenaires {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(169, 169, 169);
+}
+
+#logo-partenaires img {
+    width: 30% ;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
