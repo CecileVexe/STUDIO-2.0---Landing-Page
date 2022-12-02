@@ -276,7 +276,7 @@ footer a {
     }
 
     a.btn {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 
     section {
@@ -289,6 +289,15 @@ footer a {
     section div {
         width: 80%;
     }
+
+    .partenaires a.btn {
+        font-size: 1.7em;
+    }
+
+    .benevoles a.btn {
+        font-size: 1.7em;
+    }
+
 
     .cards {
         background-color: rgb(0, 0, 0, 0);
@@ -312,7 +321,8 @@ footer a {
     }
 
     button {
-        font-size: 1.5em;
+        font-size: 1em;
+        cursor: pointer;
     }
 
     .photo-equipe {
