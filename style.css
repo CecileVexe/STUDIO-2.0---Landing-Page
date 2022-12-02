@@ -48,7 +48,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     background-color: rgb(0, 0, 0, 0);
     box-shadow: none;
     width: 100%;
@@ -57,6 +57,7 @@ header {
 }
 
 .details {
+    margin: 20px;
     padding: 10px;
 }
 
@@ -64,8 +65,9 @@ header h2 {
     display: inline-block;
     background-color: white;
     color: black; 
+    font-size: 4em;
     font-weight: bold;
-    margin: 37% 0 0 0;
+    margin: 31% 0 0 0;
     text-align: center;
     mix-blend-mode: screen;
 }
@@ -206,6 +208,25 @@ button {
     width: 30% ;
 }
 
+.photo-equipe {
+    background-image: url(/assets/equipe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+.photo-equipe h2 {
+    display: inline-block;
+    background-color: white;
+    color: black; 
+    font-size: 2.2em;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    mix-blend-mode: screen;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -226,8 +247,8 @@ footer a {
     }
 
     header {
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
+        align-items: center;
         position: relative;
         height: 400px;
         padding: 50px;
@@ -236,7 +257,7 @@ footer a {
     }
 
     header h2 {
-        font-size: 3em;
+        font-size: 5em;
         margin: 20px;
     }
 
@@ -245,8 +266,9 @@ footer a {
     }
 
     .details {
-        margin-top: 80px;
-        width: 50%;
+        background-color: rgb(226, 226, 226, 0.7);;
+        margin-top: 30px;
+        width: 30%;
     }
 
     .btn {
@@ -291,6 +313,14 @@ footer a {
 
     button {
         font-size: 1.5em;
+    }
+
+    .photo-equipe {
+        background-size: cover;
+    }
+
+    .photo-equipe h2 {
+        font-size: 3em;
     }
 
     footer {
