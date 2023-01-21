@@ -88,8 +88,8 @@ header h1 {
   color: black;
   font-size: 4em;
   font-weight: bold;
-  margin: 20px 0 100px 0;
-  padding: 0 15px;
+  margin: 40px 0;
+  padding: 0 10px;
   text-align: center;
   mix-blend-mode: screen;
 }
@@ -133,7 +133,7 @@ header div p {
 .btn {
   background-color: #2fc1ff ;
   padding: 10px;
-  border-radius: 80px;
+  font-weight: bold;
   margin: 10px;
 }
 
@@ -178,28 +178,24 @@ section {
   width: 90%;
 }
 
-.card:nth-child(even) {
-  z-index: 0;
-}
-
 .cards h2 {
-    color: #f7f7f7;
-font-size : 1.7em; 
+  color: #f7f7f7;
+  font-size : 1.7em; 
 }
 
 .card p, li {
-color: #f7f7f7 !important;
-font-size : 1.2em; 
-line-height: 1.5;
+  color: #f7f7f7 !important;
+  font-size : 1.2em; 
+  line-height: 1.5;
 }
 
 section div.card {
   padding: 20px;
-  background-color: #1d71b8;
-  background-image: linear-gradient(225deg, #1d71b8 0%, #2fc1ff 100%);
+  background-color: #2fc1ff;
+  /*background-image: linear-gradient(225deg, #1d71b8 0%, #2fc1ff 100%);*/
   width: 80%;
   margin: 10px 0 ;
-  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.7);
+  
 }
 
 section div img {
@@ -361,9 +357,18 @@ background-image: linear-gradient(315deg, #b1dbf3 0%, #ffffff 100%);}
   justify-content: space-around;
 }
 
+.photo-equipe img:first-child{
+    width: 45%;
+  }
+
+ .photo-equipe img:last-child{
+    width: 50%;
+  }
+
 .photo-equipe img {
-  width: 40%;
-}
+    width: 40%;
+    margin-bottom: 10px;
+  }
 
 footer {
   background-color: #0a0a0a;
@@ -497,6 +502,18 @@ input, label {
   a.btn {
     font-size: 1.2em;
   }
+
+.partenaires .card:nth-child(odd){
+  background-color: rgb(47, 193, 255, 0.7);
+}
+
+
+.partenaires .card:nth-child(even) {
+  z-index: 0;
+ background-color: rgb(47, 193, 255, 0.9);
+ box-shadow: 0 5px 10px rgb(0, 0, 0, 0.4);
+}
+
 
   section {
     padding: 25px 0;
