@@ -3,20 +3,30 @@
   src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 }
 
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+}
+
 html {
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   scroll-padding-top: 130px;
 }
 
 body {
   margin: 0;
+  font-family: 'Source Sans Pro', Courier, monospace;
 }
 
  .responsive {
    display: none;
   }
+
+ h3 {
+  font-family: 'Poppins', Courier, monospace;
+}
 
 nav {
   display: flex;
@@ -43,6 +53,7 @@ nav img {
 nav h1 {
   text-transform: uppercase;
   text-justify: center;
+  font-family: 'Poppins', Courier, monospace;
 }
 
 header {
@@ -86,6 +97,7 @@ header h1 {
   display: inline-block;
   background-color: white;
   color: black;
+  font-family: 'Poppins', Courier, monospace;
   font-size: 4em;
   font-weight: bold;
   margin: 40px 0;
@@ -181,6 +193,7 @@ section {
 .cards h2 {
   color: #f7f7f7;
   font-size : 1.7em; 
+  font-family: 'Poppins', Courier, monospace;
 }
 
 .card p, li {
@@ -250,6 +263,7 @@ button {
     border: none;
     padding: 15px;
     margin : 10px;
+    font-family: 'Source Sans Pro',  Courier, monospace;
     font-weight: bold;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.4);
 }
@@ -264,7 +278,7 @@ button:hover{
      background-color: #73c5f5;
 background-image: linear-gradient(315deg, #b1dbf3 0%, #ffffff 100%);}
 
-.don h2 {color: #0a0a0a;}
+.don h2 {color: #0a0a0a; font-family: 'Poppins', Courier, monospace;}
 
 
 .don p {color: #0a0a0a!important;}
@@ -326,6 +340,7 @@ background-image: linear-gradient(315deg, #b1dbf3 0%, #ffffff 100%);}
   display: inline-block;
   background-color: #ffffff;
   color: black;
+  font-family: 'Poppins', Courier, monospace;
   font-size: 2.2em;
   margin: 40px 0 0 0;
   padding: 10px;
